@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 1.6rem;
+}
+body {
+	font-size: 62.5%;
+}
+ul {
+	list-style: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+.slide li {
+	width: 80vw;
+	flex-shrink: 0;
+	margin: 0 2rem;
+	max-width: 800px;
+}
+.slide {
+	display: flex;
+}
+.slide-wrapper {
+	overflow: hidden;
+}
